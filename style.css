@@ -103,7 +103,6 @@ main {
 	width: fit-content;
 
 	text-decoration: none;
-	color: #94674e;
 
 	font-family: 'Lobster';
 	font-size: 26px;
@@ -114,10 +113,19 @@ main {
 .home {
 	width: 96px;
 	height: 48px;
-
+	color: red;
+	
 	background-image: url(./Photos/main/main-top/Shape_7.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.hover-text {
+	color: #94674e;
+}
+
+.hover-text:hover {
+	color: red;
 }
 
 .center-main {
